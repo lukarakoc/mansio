@@ -109,10 +109,10 @@ $(window).on('load resize', function() { //Fires when window is loaded or resize
     var video = $('.c-video');
     video.html(' ');
 
-    var html = '<video class="video" onclick="muteVideo()" id="mansio-homepage-video" autoplay="" loop="" muted="" playsinline="" preload="auto" poster="http://mansio.me/assets/images/loader.gif" onclick="">\n' +
-        '                    <source src="http://mansio.me/assets/images/video/mansio.mp4" type="video/mp4">\n' +
+    var html = '<video class="video" onclick="muteVideo()" id="mansio-homepage-video" autoplay="" loop="" muted="" playsinline="" preload="auto" poster="http://134.122.65.115:8080/assets/images/loader.gif" onclick="">\n' +
+        '                    <source src="http://134.122.65.115:8080/assets/images/video/mansio.mp4" type="video/mp4">\n' +
         '                </video>\n' +
-        '                <img src="http://localhost:9050/pngfind.com-sound-png-748701.png" alt="" onclick="muteVideo()" class="sound-icon">\n' +
+        '                <img src="http://134.122.65.115:8080/pngfind.com-sound-png-748701.png" alt="" onclick="muteVideo()" class="sound-icon">\n' +
         '                <p><a href="/video/mansio" target="__blank">click here for full video</a></p>';
 
 
