@@ -36,7 +36,7 @@
         </div>
         <div class="video">
             <div class="c-video">
-                <video class="video" id="mansio-homepage-video" autoplay="" loop="" muted="" playsinline="" preload="auto" poster="{{asset('assets/images/loader.gif')}}">
+                <video class="video" id="mansio-homepage-video" autoplay="" loop="" muted="" playsinline="" preload="auto" poster="">
                     <source src="{{asset('assets/images/video/mansio.mp4')}}" type="video/mp4">
                 </video>
                 <img src="{{asset('sound.png')}}" alt="" class="sound-icon">
